@@ -57,7 +57,7 @@ func main() {
 		json.NewEncoder(w).Encode(map[string]bool{"ok": true})
 	})
 
-	spa := spaHandler{staticPath: "web-example/dist", indexPath: "index.html"}
+	spa := spaHandler{staticPath: "web-example/build", indexPath: "index.html"}
 	router.PathPrefix("/").Handler(spa)
 
 	srv := &http.Server{
