@@ -1,0 +1,94 @@
+{
+  "_books-B5J2zA5Q.js": {
+    "file": "assets/books-B5J2zA5Q.js",
+    "name": "books",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_index-C0XN_MSn.js": {
+    "file": "assets/index-C0XN_MSn.js",
+    "name": "index",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "assets/primeicons-DMOk5skT.eot",
+    "src": "node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "assets/primeicons-Dr5RGzOO.svg",
+    "src": "node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "assets/primeicons-MpK4pl85.ttf",
+    "src": "node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "assets/primeicons-WjwUDZjB.woff",
+    "src": "node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "node_modules/primeicons/fonts/primeicons.woff2": {
+    "file": "assets/primeicons-C6QP2o4f.woff2",
+    "src": "node_modules/primeicons/fonts/primeicons.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-B-bt7n7z.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BT67MAIW.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/shared/DashBoard.vue",
+      "resources/js/view/Books/AllBooks.vue",
+      "resources/js/view/Books/LoanedBooks.vue"
+    ],
+    "css": [
+      "assets/app-BHH2WFL6.css"
+    ],
+    "assets": [
+      "assets/primeicons-DMOk5skT.eot",
+      "assets/primeicons-C6QP2o4f.woff2",
+      "assets/primeicons-WjwUDZjB.woff",
+      "assets/primeicons-MpK4pl85.ttf",
+      "assets/primeicons-Dr5RGzOO.svg"
+    ]
+  },
+  "resources/js/shared/DashBoard.vue": {
+    "file": "assets/DashBoard-B_QkIweT.js",
+    "name": "DashBoard",
+    "src": "resources/js/shared/DashBoard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_books-B5J2zA5Q.js"
+    ]
+  },
+  "resources/js/view/Books/AllBooks.vue": {
+    "file": "assets/AllBooks-Bec1m3iB.js",
+    "name": "AllBooks",
+    "src": "resources/js/view/Books/AllBooks.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_index-C0XN_MSn.js",
+      "_books-B5J2zA5Q.js"
+    ]
+  },
+  "resources/js/view/Books/LoanedBooks.vue": {
+    "file": "assets/LoanedBooks-Cbsg7kSV.js",
+    "name": "LoanedBooks",
+    "src": "resources/js/view/Books/LoanedBooks.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_books-B5J2zA5Q.js",
+      "_index-C0XN_MSn.js"
+    ]
+  }
+}
